@@ -2,13 +2,8 @@ body{
     background-color: black;
 }
 
-
-/* .lander_img{
-    height: fit-content;
-} */
-
 .lander{
-    background-image: url("images/lander.jpg");
+    background-image: url("lander.jpg");
     height: 600px;
     overflow: hidden;
     padding: 0px;
@@ -88,8 +83,6 @@ hr{
     height: 10px;
 }
 
-
-/* chhoti screen */
 @media only screen and (max-width: 700px) {
     
     .section2{
@@ -122,7 +115,6 @@ hr{
     
 }
 
-/* badhi screen */
 @media only screen and (min-width: 700px) {
 
     .section2{
@@ -158,8 +150,6 @@ hr{
     
 }
 
-
-/* chhoti screen */
 @media only screen and (max-width: 700px) {
     
     .section3{
@@ -194,8 +184,6 @@ hr{
     
 }
 
-
-/* //badhi screen */
 @media only screen and (min-width: 700px) {
 
     .section3{
