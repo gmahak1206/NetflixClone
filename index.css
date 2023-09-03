@@ -1,0 +1,321 @@
+body{
+    background-color: black;
+}
+
+
+/* .lander_img{
+    height: fit-content;
+} */
+
+.lander{
+    background-image: url("images/lander.jpg");
+    height: 600px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.lander_cover{
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.492);
+    padding: 0px;
+}
+
+.navbar_img{
+    margin: 1vw;
+    /* margin-top: 9vw; */
+    height: 30px;
+}
+
+.navbar{
+    height: 80px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+.footer{
+    height: 90px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.416);
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.button{
+    right: 50px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+.content{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content p{
+    font-size: larger;
+    font-weight: lighter;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.email_parent{
+    height: 100px;
+    margin: 0px 10vw;
+    display: flex;
+    padding: 20px;
+    /* column-gap: 5px; */
+    
+}
+
+.email_parent input{
+    width: 70%;
+    margin: 2px;
+    background-color:rgba(0, 0, 0, 0.089);
+    color: white;
+    min-width: 138px;
+}
+.email_parent button{
+    width: 30%;
+    margin: 2px;
+    min-width: 138px;
+}
+
+hr{
+    background-color: rgba(255, 250, 250, 0.153);
+    height: 10px;
+}
+
+
+/* chhoti screen */
+@media only screen and (max-width: 700px) {
+    
+    .section2{
+        height: 650px;
+        color: white;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .section2Content{
+        padding: 5px;
+        margin: 5px;
+    }
+    .section2 p:first-child{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 7000;
+        font-size: xx-large;
+    }
+
+    .section2 p{
+        font-weight: lighter;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: larger;
+
+    }
+
+    .tv{
+        width: 100%;
+    }
+    
+}
+
+/* badhi screen */
+@media only screen and (min-width: 700px) {
+
+    .section2{
+        height: 550px;
+        color: white;
+        padding: 15px;
+        display: flex;
+    }
+    
+    .section2Content{
+        width: 50%;
+        text-align: center;
+        padding-top: 150px;
+    }
+    .section2 p:first-child{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 7000;
+        font-size: xxx-large;
+    }
+
+    .section2 p{
+        font-weight: bold;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: x-large;
+
+    }
+
+    .tv{
+        width: 45%;
+        height: 350px;
+        margin: 7%;
+    }
+    
+}
+
+
+/* chhoti screen */
+@media only screen and (max-width: 700px) {
+    
+    .section3{
+        height: 650px;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .section3Content{
+        padding: 5px;
+        margin: 5px;
+    }
+    .section3 p:first-child{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 7000;
+        font-size: xx-large;
+    }
+
+    .section3 p{
+        font-weight: lighter;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: larger;
+
+    }
+
+    .tv{
+        width: 100%;
+    }
+    
+}
+
+
+/* //badhi screen */
+@media only screen and (min-width: 700px) {
+
+    .section3{
+        height: 550px;
+        color: white;
+        padding: 15px;
+        display: flex;
+    }
+    
+    .section3Content{
+        width: 50%;
+        text-align: center;
+        padding-top: 150px;
+    }
+    .section3 p:first-child{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 7000;
+        font-size: xxx-large;
+    }
+
+    .section3 p{
+        font-weight: bold;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: x-large;
+
+    }
+
+    .tv{
+        width: 45%;
+        height: 350px;
+        margin: 7%;
+    }
+    
+}
+
+
+.questionSet{
+    display: block;
+    align-items: center;
+    margin: 10%;
+    background-color: rgb(0, 0, 0);
+}
+
+.questions{
+    display: flex;
+    font-size: x-large;
+    font-weight: bolder;
+    min-height: 80px;
+    margin: 15px 8% 4px 8% ;
+    padding: 15px;
+    background-color: rgb(44, 41, 41);
+    color: white;
+}
+
+.questions:hover{
+    background-color: rgb(70, 68, 68);
+    border: 2px solid rgb(76, 74, 74);
+    #button{
+        background-color: rgb(70, 68, 68);
+        border: 2px solid rgb(76, 74, 74);
+    
+    }
+}
+
+
+#button{
+    right: 0px;
+    font-weight: bold;
+    background-color: rgb(44, 41, 41);
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    padding: 2px;
+    width: 25%;
+}
+
+#answers{
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 0px 8% 15px 8% ;
+    /* padding: 10px; */
+    background-color: rgb(44, 41, 41);
+    color: white;
+}
+
+
+#ques{
+    width: 75%;
+}
+
+
+.quesHead{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    margin: 10%;
+    margin-bottom: 20px;
+}
+
+.child{
+    display: block;
+    /* border: 2px solid white; */
+    margin: 35px;
+    margin-left: 0px;
+
+}
+
+.wrapper{
+    display: flex;
+    margin-left: 0px;
+}
+
+a{
+    color: white;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
